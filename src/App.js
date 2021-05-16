@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.css';
 import UpperCaseUsername from './hocBasic/Username';
+import hocEmployeeDetails from './hocEmployee/employeeDetails';
+import hocEmployeeSalary from './hocEmployee/employeeSalary';
 
 export default function App() {
   return (
@@ -10,6 +12,9 @@ export default function App() {
       <UpperCaseUsername>Sam</UpperCaseUsername>
       <UpperCaseUsername>Kush</UpperCaseUsername>
       <UpperCaseUsername>Rama</UpperCaseUsername>
+
+      <hocEmployeeDetails />
+      <hocEmployeeSalary />
     </div>
   );
 }

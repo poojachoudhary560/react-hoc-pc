@@ -11,6 +11,6 @@ const EmployeeDetails = props => {
   );
 };
 
-const hocEmployeeDetails = hocEmployeeWrapper(EmployeeDetails);
+const HocEmployeeDetails = hocEmployeeWrapper(EmployeeDetails);
 
-export default hocEmployeeDetails;
+export default HocEmployeeDetails;

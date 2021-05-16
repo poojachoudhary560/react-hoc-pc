@@ -1,7 +1,7 @@
 import React from 'react';
 import hocEmployeeWrapper from './hocEmployeeWrapper';
 
-const EmployeeDetails = props => {
+const EmployeeSalary = props => {
   return (
     <div>
       <div>Employee Name: {props.name}</div>
@@ -11,6 +11,6 @@ const EmployeeDetails = props => {
   );
 };
 
-const hocEmployeeDetails = hocEmployeeWrapper(EmployeeDetails);
+const HocEmployeeSalary = hocEmployeeWrapper(EmployeeSalary);
 
-export default hocEmployeeDetails;
+export default HocEmployeeDetails;

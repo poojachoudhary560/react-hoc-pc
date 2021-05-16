@@ -12,8 +12,10 @@ export default function App() {
       <UpperCaseUsername>Sam</UpperCaseUsername>
       <UpperCaseUsername>Kush</UpperCaseUsername>
       <UpperCaseUsername>Rama</UpperCaseUsername>
-
+      <br />
       <HocEmployeeDetails />
+      <br />
+
       <HocEmployeeSalary />
     </div>
   );

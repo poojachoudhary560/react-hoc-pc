@@ -5,8 +5,8 @@ const EmployeeDetails = props => {
   return (
     <div>
       <div>Employee Name: {props.name}</div>
-      <div>Employee Salary: {props.salary}</div>
-      <div>Employee Bonus: {props.bonus}</div>
+      <div>Employee Age: {props.age}</div>
+      <div>Employee Designation: {props.designation}</div>
     </div>
   );
 };

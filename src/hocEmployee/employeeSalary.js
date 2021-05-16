@@ -5,12 +5,12 @@ const EmployeeSalary = props => {
   return (
     <div>
       <div>Employee Name: {props.name}</div>
-      <div>Employee Age: {props.age}</div>
-      <div>Employee Designation: {props.designation}</div>
+      <div>Employee Salary: {props.salary}</div>
+      <div>Employee Bonus: {props.bonus}</div>
     </div>
   );
 };
 
 const HocEmployeeSalary = hocEmployeeWrapper(EmployeeSalary);
 
-export default HocEmployeeDetails;
+export default HocEmployeeSalary;
